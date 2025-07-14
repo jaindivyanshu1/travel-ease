@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "https://travel-ease-production.up.railway.app:8080/api";
+const API_BASE = "https://travel-ease-production.up.railway.app/api";
 
 export async function sendLog(entry) {
   return axios.post(`${API_BASE}/log`, entry);
